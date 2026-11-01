@@ -17,6 +17,7 @@ mohammedqaidalathwary@gmail.com
 ## Research links
 
 - ORCID: https://orcid.org/0009-0006-9075-072X
+- Google Scholar: https://scholar.google.com/citations?user=OTj14QoAAAAJ&hl=en
 - GitHub: https://github.com/mohammedqaidalathwary
 - NeuroCortex SRDF project repository: https://github.com/mohammedqaidalathwary/neurocortex-srdf
 
@@ -48,5 +49,5 @@ The records below are Zenodo deposits. Software releases, protocols, and results
 ## Academic profiles
 
 - ORCID: https://orcid.org/0009-0006-9075-072X
-- Google Scholar: profile link to be added after activation.
+- Google Scholar: https://scholar.google.com/citations?user=OTj14QoAAAAJ&hl=en
 
