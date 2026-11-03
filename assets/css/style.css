@@ -23,3 +23,20 @@
 .indexing-card small{margin-top:auto;color:var(--muted);font-size:.78rem}
 @media(max-width:800px){.indexing-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){.indexing-grid{grid-template-columns:1fr}.indexing-card{min-height:138px}}
+
+/* Accessible bilingual language selector and Arabic RTL layout. */
+.language-control{display:flex;align-items:center;margin-inline-start:auto;margin-inline-end:22px}
+.language-control select{font:inherit;font-size:.82rem;font-weight:700;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:5px;padding:8px 28px 8px 10px;cursor:pointer;max-width:125px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+html[dir="rtl"] body{text-align:right}
+html[dir="rtl"] .nav-links{direction:rtl}
+html[dir="rtl"] .hero-actions,html[dir="rtl"] .hero-meta,html[dir="rtl"] .research-brand{direction:rtl}
+html[dir="rtl"] .project{direction:rtl}
+html[dir="rtl"] .publication-list{padding-right:1.25rem;padding-left:0}
+html[dir="rtl"] .indexing-card{direction:rtl;text-align:right}
+html[dir="rtl"] .profile-card{direction:rtl;text-align:right}
+html[dir="rtl"] .contact-wrap,html[dir="rtl"] .footer-wrap{direction:rtl}
+html[dir="rtl"] .contact-email{direction:ltr;unicode-bidi:embed}
+html[dir="rtl"] .eyebrow{letter-spacing:.08em}
+@media(max-width:800px){.language-control{margin-inline-start:auto;margin-inline-end:14px}}
+@media(max-width:620px){.language-control{margin-inline-start:auto;margin-inline-end:10px}.language-control select{font-size:.78rem;padding:7px 7px;max-width:104px}}
