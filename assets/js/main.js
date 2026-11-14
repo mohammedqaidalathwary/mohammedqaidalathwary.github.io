@@ -36,7 +36,49 @@ Object.assign(translations,{
     "Research programmes":"البرامج البحثية",
     "Reliable Evaluation in Imbalanced Tabular Classification":"التقييم الموثوق في التصنيف الجدولي غير المتوازن"
   });
-  const languageSelect=document.getElementById("language-select");
+  Object.assign(translations,{
+  "STUDY S08 · IMBALANCED TABULAR CLASSIFICATION":"الدراسة S08 · التصنيف الجدولي غير المتوازن",
+  "Threshold Correction, Not Rebalancing: A Pre-registered Generalization Study of Benchmark-Practice Inflation in Imbalanced Tabular Classification":"تصحيح العتبة لا إعادة التوازن: دراسة مسجلة مسبقاً لتعميم تضخم الأداء الناتج عن ممارسات التقييم المرجعي في التصنيف الجدولي غير المتوازن",
+  "A pre-registered generalization study testing whether apparent balanced-accuracy gains attributed to rebalancing methods can instead arise from the use of an uncorrected default decision threshold. The study evaluates the finding across learners and datasets.":"دراسة تعميم مسجلة مسبقاً تختبر ما إذا كانت مكاسب الدقة المتوازنة المنسوبة إلى أساليب إعادة التوازن قد تنتج بدلاً من ذلك عن استخدام عتبة قرار افتراضية غير مصححة. وتقيّم الدراسة النتيجة عبر متعلمين ومجموعات بيانات متعددة.",
+  "Design":"التصميم",
+  "Pre-registered empirical study":"دراسة تجريبية مسجلة مسبقاً",
+  "Scope":"النطاق",
+  "85 source-deduplicated binary datasets":"85 مجموعة بيانات ثنائية بعد إزالة التكرار حسب المصدر",
+  "Learners":"المتعلمون",
+  "HistGradientBoosting and Logistic Regression":"HistGradientBoosting والانحدار اللوجستي",
+  "STAGE 1 · PRE-REGISTRATION PROTOCOL":"المرحلة 1 · بروتوكول التسجيل المسبق",
+  "STAGE 2 · EMPIRICAL RESULTS":"المرحلة 2 · النتائج التجريبية",
+  "STUDY S07 · BENCHMARK-PRACTICE INFLATION":"الدراسة S07 · تضخم الأداء الناتج عن ممارسات التقييم المرجعي",
+  "Benchmark-Practice Inflation in Imbalanced Classification":"تضخم الأداء الناتج عن ممارسات التقييم المرجعي في التصنيف غير المتوازن",
+  "A pre-registered empirical investigation of how conventional benchmark practices and default decision thresholds affect reported performance in imbalanced classification, including comparisons with threshold-corrected controls.":"دراسة تجريبية مسجلة مسبقاً تبحث في تأثير ممارسات التقييم المرجعي التقليدية وعتبات القرار الافتراضية على الأداء المعلن في التصنيف غير المتوازن، بما في ذلك المقارنة مع خطوط أساس مصححة العتبة.",
+  "131 OpenML datasets":"131 مجموعة بيانات من OpenML",
+  "Threshold effects and benchmark-practice inflation":"تأثيرات العتبة وتضخم الأداء الناتج عن ممارسات التقييم المرجعي",
+  "A +9.76 percentage-point balanced-accuracy effect associated with threshold inflation; threshold-free AUC effects did not show the same pattern.":"أثر قدره +9.76 نقطة مئوية في الدقة المتوازنة مرتبط بتضخم العتبة؛ ولم تُظهر تأثيرات AUC المستقلة عن العتبة النمط نفسه.",
+  "STUDY S06 · CONFIRMATORY SRDF EVALUATION":"الدراسة S06 · التقييم التأكيدي لـ SRDF",
+  "Confirmatory Evaluation of SRDF v2 on an Independent Cohort":"التقييم التأكيدي لـ SRDF v2 على مجموعة مستقلة",
+  "A confirmatory evaluation of SRDF v2 on an independent cohort, focusing on the tie-break procedure and balanced-accuracy utility used in candidate evaluation.":"تقييم تأكيدي لـ SRDF v2 على مجموعة مستقلة، يركز على إجراء كسر التعادل ودالة منفعة الدقة المتوازنة المستخدمة في تقييم البدائل.",
+  "Confirmatory independent-cohort evaluation":"تقييم تأكيدي على مجموعة مستقلة",
+  "Tie-break and balanced-accuracy utility":"كسر التعادل ومنفعة الدقة المتوازنة",
+  "RESEARCH RECORD · CONFIRMATORY EVALUATION":"سجل بحثي · تقييم تأكيدي",
+  "Independent-cohort evaluation record":"سجل التقييم على مجموعة مستقلة",
+  "Persistent Zenodo record for the confirmatory evaluation. The DOI pair distinguishes the concept-level record from the specific archived version.":"سجل Zenodo دائم للتقييم التأكيدي. ويميز زوج DOI بين سجل المفهوم والإصدار المؤرشف المحدد.",
+  "RESEARCH SOFTWARE & FRAMEWORK RECORDS":"سجلات البرمجيات البحثية وإطار العمل",
+  "NeuroCortex — Self-Reinforcing Development Framework (SRDF)":"NeuroCortex — إطار التطوير المعزز ذاتياً (SRDF)",
+  "Versioned software and framework records supporting the research programme. Concept DOIs group versions; version DOIs identify specific deposits.":"سجلات ذات إصدارات للبرمجيات وإطار العمل الداعم للبرنامج البحثي. تجمع معرّفات مفهوم DOI الإصدارات، بينما تحدد معرّفات الإصدار إيداعات بعينها.",
+  "NeuroCortex SRDF · current release v1.0.0":"NeuroCortex SRDF · الإصدار الحالي v1.0.0",
+  "NeuroCortex SRDF · earlier release v0.4.0":"NeuroCortex SRDF · الإصدار السابق v0.4.0",
+  "NeuroCortex · foundational research preprint":"NeuroCortex · المسودة البحثية التأسيسية",
+  "Concept DOI":"معرّف DOI للمفهوم",
+  "Version DOI":"معرّف DOI للإصدار",
+  "External research discovery records":"سجلات اكتشاف الأبحاث الخارجية",
+  "These services provide additional discovery or metadata access. Their inclusion does not imply peer review.":"توفر هذه الخدمات إمكانات إضافية لاكتشاف الأبحاث أو الوصول إلى بياناتها الوصفية. ولا يعني إدراجها إجراء تحكيم علمي.",
+  "The Zenodo Concept DOI identifies the record grouping and resolves to the latest version; the Version DOI identifies a specific archived version. Protocols, datasets, software releases, and preprints are distinguished by their actual record type and are not described as peer-reviewed journal articles unless journal publication has occurred.":"يحدد Concept DOI مجموعة السجل ويوجه إلى أحدث إصدار، بينما يحدد Version DOI إصداراً مؤرشفاً بعينه. وتُميّز البروتوكولات ومجموعات البيانات وإصدارات البرمجيات والمسودات البحثية وفق نوع سجلها الفعلي، ولا توصف بأنها مقالات محكّمة ما لم تُنشر في مجلة بعد التحكيم.",
+  "Research identifiers & repositories":"المعرّفات البحثية والمستودعات",
+  "Research archive":"الأرشيف البحثي",
+  "Protocols, results, and software records ↗":"سجلات البروتوكولات والنتائج والبرمجيات ↗"
+});
+
+const languageSelect=document.getElementById("language-select");
 const textNodes=[];const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);while(walker.nextNode())textNodes.push(walker.currentNode);
 const originalText=new WeakMap();textNodes.forEach(node=>originalText.set(node,node.nodeValue));
 const attributeNodes=[...document.querySelectorAll("[aria-label], [alt], [title]")].map(el=>({el,attrs:["aria-label","alt","title"].filter(a=>el.hasAttribute(a)).map(a=>[a,el.getAttribute(a)])}));
