@@ -36,6 +36,10 @@
       "Adaptive Artificial Intelligence Systems"
     ],
     "subjectOf":[
+      {"@type":"CreativeWork","name":"Foundational Executable Prototype of the Self-Reinforcing Development Framework","url":"https://github.com/mohammedqaidalathwary/neurocortex-srdf/tree/main/experiments/S01_PROTOTYPE_VALIDATION"},
+      {"@type":"CreativeWork","name":"Functional Validation of Generator–Arbiter Coordination for Predictive Runtime Adaptation","url":"https://github.com/mohammedqaidalathwary/neurocortex-srdf/tree/main/experiments/S03_GENERATOR_ARBITER"},
+      {"@type":"CreativeWork","name":"Empirical Evaluation of NeuroCortex SRDF on OpenML Tabular Classification Datasets","url":"https://github.com/mohammedqaidalathwary/neurocortex-srdf/tree/main/experiments/S04_OPENML_GENERALIZATION"},
+      {"@type":"CreativeWork","name":"Comparative Evaluation of NeuroCortex SRDF Against Established Imbalance-Learning Baselines","url":"https://github.com/mohammedqaidalathwary/neurocortex-srdf/tree/main/experiments/S05_EXTENDED_EVALUATION"},
       {
         "@type":"CreativeWork",
         "name":"Confirmatory Evaluation of SRDF v2 on an Independent Cohort",
@@ -190,6 +194,42 @@
           <a class="record-button" href="https://zenodo.org/records/23406120" target="_blank" rel="noopener">Open results record</a>
         </section>
       </div>
+    </article>
+
+    <article class="study-card" id="study-s05">
+      <div class="study-heading"><div><p class="study-kicker">STUDY S05 · EXTENDED COMPARATIVE EVALUATION</p>
+        <h3>Comparative Evaluation of NeuroCortex SRDF Against Established Imbalance-Learning Baselines</h3>
+        <p class="study-summary">An extended comparative evaluation of frozen SRDF v1 against SMOTE+RF, cost-sensitive Random Forest, ADASYN+RF, and EasyEnsemble on the 45-dataset S04 cohort, including counterfactual Arbiter analysis and decomposition of negative-performance cases.</p></div><span class="study-status">Research artifacts documented</span></div>
+      <div class="study-facts"><span><b>Design</b> Extended comparative evaluation</span><span><b>Cohort</b> 45 OpenML datasets; 1,125 planned cases</span><span><b>Comparators</b> Four external baselines</span></div>
+      <div class="stage-grid"><section class="stage-card"><p class="stage-label">STAGE 1 · PROTOCOL</p><h4>Comparative evaluation protocol</h4><p>Locked protocol specifying the frozen cohort, evaluation cases, baselines, metrics, and comparisons.</p><a class="record-button" href="https://github.com/mohammedqaidalathwary/neurocortex-srdf/tree/main/experiments/S05_EXTENDED_EVALUATION" target="_blank" rel="noopener">View S05 protocol and artifacts ↗</a></section>
+      <section class="stage-card"><p class="stage-label">STAGE 2 · EMPIRICAL RESULTS</p><h4>Comparative results and counterfactual analysis</h4><p>The counterfactual analysis reports a −1.93 percentage-point net cost relative to always selecting SMOTE+RF on 373 successful cases. S05 is documented as exploratory/comparative.</p><a class="record-button" href="https://github.com/mohammedqaidalathwary/neurocortex-srdf/blob/main/experiments/S05_EXTENDED_EVALUATION/README.md" target="_blank" rel="noopener">Read S05 results summary ↗</a></section></div>
+    </article>
+
+    <article class="study-card" id="study-s04">
+      <div class="study-heading"><div><p class="study-kicker">STUDY S04 · OPENML GENERALIZATION EVALUATION</p>
+        <h3>Empirical Evaluation of NeuroCortex SRDF on OpenML Tabular Classification Datasets</h3>
+        <p class="study-summary">A structured evaluation on a frozen cohort of OpenML binary-classification datasets, with prespecified eligibility, cohort selection, execution design, imbalance triggering, and dataset-aware statistical summaries.</p></div><span class="study-status">Completed run · evidence artifacts recorded</span></div>
+      <div class="study-facts"><span><b>Design</b> OpenML generalization evaluation</span><span><b>Cohort</b> 45 datasets</span><span><b>Execution</b> Five seeds × five stratified folds</span></div>
+      <div class="stage-grid"><section class="stage-card"><p class="stage-label">STAGE 1 · EXPERIMENT PROTOCOL</p><h4>S04/R4 protocol and cohort definition</h4><p>Protocol NC-S04-R4 defines eligibility, the frozen cohort, train-only imbalance trigger, candidate selection, and statistical analysis.</p><a class="record-button" href="https://github.com/mohammedqaidalathwary/neurocortex-srdf/blob/main/experiments/S04_OPENML_GENERALIZATION/README.md" target="_blank" rel="noopener">View S04 protocol and evidence map ↗</a></section>
+      <section class="stage-card"><p class="stage-label">STAGE 2 · RECORDED EXECUTION AND RESULTS</p><h4>Run outcomes and statistical summaries</h4><p>The committed summary records 1,125 terminal cases, including 373 successful adaptations. The dataset-level analysis covers 15 datasets and reports a mean balanced-accuracy change of +0.02880.</p><a class="record-button" href="https://github.com/mohammedqaidalathwary/neurocortex-srdf/tree/main/experiments/S04_OPENML_GENERALIZATION" target="_blank" rel="noopener">View S04 result artifacts ↗</a></section></div>
+    </article>
+
+    <article class="study-card" id="study-s03">
+      <div class="study-heading"><div><p class="study-kicker">STUDY S03 · GENERATOR–ARBITER FUNCTIONAL VALIDATION</p>
+        <h3>Functional Validation of Generator–Arbiter Coordination for Predictive Runtime Adaptation</h3>
+        <p class="study-summary">A multirun functional validation of the SRDF generator–arbiter workflow, examining predictive adaptation behavior across five fixed random seeds and recording component interaction.</p></div><span class="study-status">Multirun research artifacts documented</span></div>
+      <div class="study-facts"><span><b>Phase</b> R3 / S03</span><span><b>Evaluation</b> Five fixed seeds</span><span><b>Focus</b> Generator–Arbiter functional validation</span></div>
+      <div class="stage-grid"><section class="stage-card"><p class="stage-label">STAGE 1 · DESIGN AND IMPLEMENTATION</p><h4>Generator–Arbiter validation design</h4><p>Phase documentation and implementation artifacts describe the functional validation setup and predictive-adaptation workflow.</p><a class="record-button" href="https://github.com/mohammedqaidalathwary/neurocortex-srdf/tree/main/experiments/S03_GENERATOR_ARBITER" target="_blank" rel="noopener">View S03 experiment materials ↗</a></section>
+      <section class="stage-card"><p class="stage-label">STAGE 2 · MULTIRUN RESULTS</p><h4>Five-seed functional validation outputs</h4><p>Multirun result artifacts record generator–arbiter validation across five fixed seeds. No Zenodo DOI is listed for S03 in the project README, so the primary repository record is linked directly.</p><a class="record-button" href="https://github.com/mohammedqaidalathwary/neurocortex-srdf/tree/main/experiments/S03_GENERATOR_ARBITER" target="_blank" rel="noopener">Inspect S03 run and result files ↗</a></section></div>
+    </article>
+
+    <article class="study-card" id="study-s01">
+      <div class="study-heading"><div><p class="study-kicker">STUDY S01 · FOUNDATIONAL PROTOTYPE VALIDATION</p>
+        <h3>Foundational Executable Prototype of the Self-Reinforcing Development Framework</h3>
+        <p class="study-summary">The foundational prototype demonstrates the executable SRDF workflow and feasibility of bounded runtime structural adaptation in a controlled illustrative setting.</p></div><span class="study-status">Foundational prototype documented</span></div>
+      <div class="study-facts"><span><b>Stage</b> S01 · Foundational prototype</span><span><b>Focus</b> Executable SRDF workflow</span><span><b>Evidence</b> Prototype notebook and phase documentation</span></div>
+      <div class="stage-grid"><section class="stage-card"><p class="stage-label">STAGE 1 · PROTOTYPE</p><h4>Executable foundational implementation</h4><p>Prototype demonstrating the core SRDF workflow and bounded runtime adaptation feasibility.</p><a class="record-button" href="https://github.com/mohammedqaidalathwary/neurocortex-srdf/tree/main/experiments/S01_PROTOTYPE_VALIDATION" target="_blank" rel="noopener">View S01 prototype artifacts ↗</a></section>
+      <section class="stage-card"><p class="stage-label">STAGE 2 · DOCUMENTATION</p><h4>Phase record and implementation history</h4><p>The project changelog records S01 as the foundational executable prototype, introduced on 17 September 2026. No DOI is listed for this phase in the project README.</p><a class="record-button" href="https://github.com/mohammedqaidalathwary/neurocortex-srdf/blob/main/CHANGELOG.md" target="_blank" rel="noopener">View S01 project history ↗</a></section></div>
     </article>
 
     <article class="study-card" id="study-s06">
