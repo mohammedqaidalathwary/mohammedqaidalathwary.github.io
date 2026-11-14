@@ -108,3 +108,5 @@ Object.assign(translations,{
 });
 
 Object.assign(translations,{"Yemen":"اليمن","ABOUT":"نبذة عن الباحث","RESEARCH INTERESTS":"الاهتمامات البحثية","COMPLETED RESEARCH OUTPUT":"المخرجات البحثية المنجزة","RESEARCH DISCOVERY & INDEXING":"اكتشاف الأبحاث وفهرستها","ACADEMIC PROFILES":"الملفات الأكاديمية","CONTACT":"التواصل","ORCID":"معرّف ORCID"});
+
+setLanguage(document.documentElement.lang==="ar"?"ar":"en");
