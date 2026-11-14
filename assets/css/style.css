@@ -77,3 +77,76 @@ html[dir="rtl"] .study-card,html[dir="rtl"] .stage-card,html[dir="rtl"] .softwar
 html[dir="rtl"] .record-note{border-left:0;border-right:3px solid var(--accent)}
 @media(max-width:800px){.software-record-grid{grid-template-columns:1fr 1fr}.study-heading{flex-direction:column}.study-status{white-space:normal}}
 @media(max-width:620px){.study-card{padding:20px 16px}.stage-grid,.software-record-grid{grid-template-columns:1fr}.doi-list div{grid-template-columns:1fr;gap:1px}.study-facts{flex-direction:column;gap:6px}}
+
+
+/* Refined academic typography and section hierarchy. */
+body{font-size:17px;line-height:1.76}
+.nav-links a{font-size:.92rem}
+.eyebrow{font-size:.78rem;letter-spacing:.15em;margin-bottom:20px}
+.section{padding:96px 0}
+.section h2{margin-bottom:28px}
+.section-lead{font-size:1.22rem;line-height:1.72}
+.section p{line-height:1.78}
+.card{padding:30px}
+.card h3,.project h3{font-size:1.32rem}
+.card p,.project p{font-size:1.02rem}
+.project{padding:36px 0}
+.project-tag{font-size:.76rem!important}
+.study-card{margin:40px 0;padding:34px}
+.study-kicker,.stage-label{font-size:.74rem;letter-spacing:.12em}
+.study-heading h3{font-size:clamp(1.48rem,2.6vw,1.95rem);line-height:1.38}
+.study-summary{font-size:1.02rem;line-height:1.78}
+.study-status{font-size:.8rem}
+.study-facts{font-size:.92rem;line-height:1.65}
+.stage-card,.software-record{padding:25px}
+.stage-card h4,.software-record h4{font-size:1.12rem}
+.stage-card>p:not(.stage-label),.software-record p{font-size:.98rem;line-height:1.72}
+.doi-list div{font-size:.9rem}
+.record-button{font-size:.88rem;padding:10px 15px}
+.profile-card{padding:26px;min-height:158px}
+.profile-card>span{font-size:.76rem}
+.profile-card strong{font-size:1.12rem}
+.profile-card small{font-size:.88rem}
+.contact-wrap p:not(.eyebrow){font-size:1.02rem}
+.contact-email{font-size:1.18rem}
+.site-footer{font-size:.88rem}
+
+/* Research discovery and indexing hierarchy. */
+.indexing-detail{margin-top:38px;padding:30px;background:#fff;border:1px solid var(--line);border-radius:8px}
+.indexing-detail-heading{max-width:920px}
+.indexing-detail-heading h3{font-size:1.65rem;line-height:1.3;margin:6px 0 12px}
+.indexing-detail-heading>p:not(.study-kicker){color:var(--muted);font-size:1rem;line-height:1.75}
+.indexing-detail-heading .text-link{display:inline-block;margin-top:6px;font-size:.96rem;white-space:normal}
+.indexed-record-list{margin-top:24px;border-top:1px solid var(--line)}
+.indexed-record{display:grid;grid-template-columns:minmax(0,1fr) minmax(250px,.8fr);gap:20px;padding:22px 0;border-bottom:1px solid var(--line);align-items:center}
+.indexed-record-type,.openaire-record>span{font-size:.72rem;letter-spacing:.1em;color:var(--accent);font-weight:850}
+.indexed-record h4,.openaire-record h4{font-size:1.08rem;line-height:1.4;margin:6px 0}
+.indexed-record p,.openaire-record p{font-size:.92rem;color:var(--muted);margin:4px 0}
+.indexed-record-links{display:flex;flex-direction:column;gap:9px}
+.indexed-record-links a,.openaire-record a{font-size:.9rem;font-weight:750;color:var(--accent);text-decoration:none;overflow-wrap:anywhere}
+.indexed-record-links a:hover,.openaire-record a:hover{text-decoration:underline}
+.openaire-record-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:24px}
+.openaire-record{display:flex;flex-direction:column;align-items:flex-start;gap:5px;padding:20px;border:1px solid var(--line);border-radius:6px;background:#fbfcfd;min-width:0}
+.openaire-record a+a{margin-top:3px}
+.indexing-grid{gap:16px}
+.indexing-card{padding:23px;min-height:176px}
+.indexing-card>span{font-size:.72rem}
+.indexing-card strong{font-size:1.2rem}
+.indexing-card b{font-size:1rem}
+.indexing-card small{font-size:.86rem}
+html[dir="rtl"] .indexed-record{direction:rtl}
+html[dir="rtl"] .openaire-record{align-items:flex-start;text-align:right}
+@media(max-width:800px){
+  .section{padding:78px 0}
+  .indexed-record{grid-template-columns:1fr}
+  .openaire-record-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:620px){
+  body{font-size:16.5px}
+  .section{padding:68px 0}
+  .study-card{padding:24px 18px}
+  .indexing-detail{padding:22px 17px}
+  .openaire-record-grid{grid-template-columns:1fr}
+  .indexed-record{gap:12px}
+  .indexing-card{min-height:150px}
+}
