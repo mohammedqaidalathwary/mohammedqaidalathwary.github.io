@@ -150,3 +150,56 @@ html[dir="rtl"] .openaire-record{align-items:flex-start;text-align:right}
   .indexed-record{gap:12px}
   .indexing-card{min-height:150px}
 }
+
+
+/* Arabic-language typography and complete RTL composition. */
+html[lang="ar"] body{
+  font-family:"Noto Sans Arabic",Tahoma,Arial,sans-serif;
+  line-height:1.9;
+  text-align:right;
+}
+html[lang="ar"] h1,
+html[lang="ar"] h2,
+html[lang="ar"] h3,
+html[lang="ar"] h4,
+html[lang="ar"] p,
+html[lang="ar"] a,
+html[lang="ar"] span,
+html[lang="ar"] small,
+html[lang="ar"] dt,
+html[lang="ar"] dd{line-height:1.85}
+html[lang="ar"] .nav-wrap,
+html[lang="ar"] .nav-links,
+html[lang="ar"] .hero-actions,
+html[lang="ar"] .hero-meta,
+html[lang="ar"] .project,
+html[lang="ar"] .study-heading,
+html[lang="ar"] .study-facts,
+html[lang="ar"] .contact-wrap,
+html[lang="ar"] .footer-wrap{direction:rtl}
+html[lang="ar"] .nav-links{margin-inline-start:0}
+html[lang="ar"] .language-control{margin-inline-start:0;margin-inline-end:22px}
+html[lang="ar"] .card-grid,
+html[lang="ar"] .profile-grid,
+html[lang="ar"] .indexing-grid,
+html[lang="ar"] .stage-grid,
+html[lang="ar"] .software-record-grid,
+html[lang="ar"] .openaire-record-grid{direction:rtl}
+html[lang="ar"] .card,
+html[lang="ar"] .stage-card,
+html[lang="ar"] .software-record,
+html[lang="ar"] .profile-card,
+html[lang="ar"] .indexing-card,
+html[lang="ar"] .openaire-record,
+html[lang="ar"] .indexing-detail,
+html[lang="ar"] .indexed-record{text-align:right;direction:rtl}
+html[lang="ar"] .study-facts b{margin-right:0;margin-left:5px}
+html[lang="ar"] .doi-list div{direction:rtl;grid-template-columns:minmax(90px,.45fr) minmax(0,1fr)}
+html[lang="ar"] .record-note{border-left:0;border-right:3px solid var(--accent)}
+html[lang="ar"] .contact-email{direction:ltr;unicode-bidi:embed}
+html[lang="ar"] .research-brand{direction:rtl}
+html[lang="ar"] .indexing-card small{margin-top:auto}
+@media(max-width:800px){
+  html[lang="ar"] .nav-links{align-items:stretch}
+  html[lang="ar"] .language-control{margin-inline-start:0;margin-inline-end:10px}
+}
